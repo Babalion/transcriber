@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Transcriber
+Comment=Dictate text with Groq Whisper and copy it to the clipboard
+Exec=@EXEC@
+Icon=audio-input-microphone
+Terminal=false
+Categories=Utility;Accessibility;
+Keywords=dictation;speech;voice;whisper;transcribe;Diktat;Sprache;
+StartupNotify=false

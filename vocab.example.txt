@@ -1,0 +1,4 @@
+# Words Whisper should recognise and spell correctly.
+# Comma or line separated, '#' starts a comment. Keep it short:
+# Whisper only reads about 200 tokens of prompt.
+GNOME, Wayland, Fedora, GitHub, Python

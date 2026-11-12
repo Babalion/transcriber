@@ -1,0 +1,7 @@
+.env
+*.env
+__pycache__/
+*.flac
+*.wav
+/config.toml
+/vocab.txt

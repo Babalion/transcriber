@@ -1,0 +1,22 @@
+# transcriber configuration - copy to ~/.config/transcriber/config.toml
+# Every key is optional; these are the defaults.
+
+# Spoken language (ISO-639-1). Leave empty ("") for auto-detection.
+language = "de"
+
+# Groq speech-to-text model: "whisper-large-v3" (more accurate)
+# or "whisper-large-v3-turbo" (faster, cheaper).
+model = "whisper-large-v3"
+
+# File that contains a line GROQ_API_KEY=gsk_...
+# (only that line is read; the environment variable GROQ_API_KEY wins if set)
+env_file = "~/.env"
+
+# Terms Whisper should spell correctly, comma or line separated.
+vocab_file = "~/.config/transcriber/vocab.txt"
+
+# Text put in front of the vocabulary in the Whisper prompt.
+prompt_prefix = "Fachbegriffe:"
+
+# How long the window stays visible after a successful transcription.
+close_delay_ms = 700
